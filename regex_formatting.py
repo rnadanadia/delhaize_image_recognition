@@ -18,7 +18,7 @@ date_recognition = date_recognition(date)
 #print(date_recognition)
 
 '''
-The func is for 8 digit date for ex : 08092030 
+The func is for 8 digit date, for ex : 08092030 
 it will strip the 20 (from 2030) and give the 
 result 08.09.30
 '''
@@ -38,7 +38,7 @@ def date_adjustment(date_recognition: list):
 date_adjustment = date_adjustment(date_recognition)
 #print(date_adjustment)
 '''
-The func is for 6 digit date for ex : 010325 
+The func is for 6 digit date, for ex : 010325 
 it will give the result 01.03.25. If we directly 
 replace the 6 digit before 8 digit, the function will 
 also read the 8 digit therefore it's inaccurate.
